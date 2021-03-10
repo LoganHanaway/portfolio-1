@@ -1,0 +1,161 @@
+/* Logan Hanaway Portfolio Project Extravaganza 2: Electric Boogaloo */
+
+/* Styles for header and navbar */
+
+html {
+    background-color: rgb(73, 73, 73);
+    background-image: linear-gradient(to top, #282828, #333333);
+    background-repeat: no-repeat;
+}
+
+
+header {
+    padding: 2em;
+    height: 50px;
+    min-width: 900px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#logo {
+    height: 50px;
+    float: left;
+}
+
+#nav {
+    list-style-type: none;
+    padding: 0;
+    float: right;
+    font-family: Futura, Comfortaa, sans-serif;
+    font-weight: lighter;
+    font-size: 1.25em;
+    text-shadow: 0px 2px 5px #000000;
+}
+
+nav li {
+    display: inline;
+    padding-left: 1.5em;
+}
+
+nav a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #aa0000;
+}
+
+/* styles for the page content */
+
+#wrapper {
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 900px;
+    max-width: 1100px;
+}
+h1 {
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    color: #aa0000;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-shadow: 0px 2px 5px #202020;
+}
+h2 {
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 2em;
+    color: #aa0000;
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-shadow: 0px 2px 5px #202020;
+}
+
+p {
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+    color: #f2f2f2;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-indent: 3em;
+    line-height: 30px;
+}
+
+ol {
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+    color: #f2f2f2;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-indent: 3em;
+    line-height: 30px;
+    text-indent: 0;
+}
+
+.nonav {
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+    color: #f2f2f2;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-indent: 3em;
+    line-height: 30px;
+    text-indent: 0;
+}
+
+ul a {
+    color: #f2f2f2;
+}
+
+ul a:hover {
+    color: #aa0000;
+}
+
+.nologo {
+    box-shadow: 3px 3px 10px #202020
+}
+
+footer {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    font-style: italic;
+    color: darkgray;
+    text-align: center;
+    margin-top: 8em;
+}
+
+footer a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #aa0000;
+}
+
+.thumb {
+    width: 32%;
+    margin: .519%;
+    opacity: 50%;
+}
+
+.thumb:hover {
+    opacity: 100%;
+}
+
+.thumbrow {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
