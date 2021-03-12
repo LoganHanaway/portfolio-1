@@ -3,8 +3,7 @@
 /* Styles for header and navbar */
 
 html {
-    background-color: rgb(73, 73, 73);
-    background-image: linear-gradient(to top, #282828, #333333);
+    background-color: rgb(55, 55, 55);
     background-repeat: no-repeat;
 }
 
@@ -50,7 +49,7 @@ nav a:hover {
 /* styles for the page content */
 
 #wrapper {
-    padding: 2em;
+    padding: 2.5em;
     margin-left: auto;
     margin-right: auto;
     min-width: 900px;
@@ -71,6 +70,15 @@ h2 {
     font-size: 2em;
     color: #aa0000;
     margin-top: 0;
+    margin-bottom: 5px;
+    text-shadow: 0px 2px 5px #202020;
+}
+h3 {
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 1.3em;
+    color:#aa0000;
+    margin-top:  0;
     margin-bottom: 5px;
     text-shadow: 0px 2px 5px #202020;
 }
