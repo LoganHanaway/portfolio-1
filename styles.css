@@ -2,7 +2,7 @@
 
 /* Styles for header and navbar */
 
-html {
+body {
     background-color: rgb(55, 55, 55);
     background-repeat: no-repeat;
 }
@@ -14,7 +14,7 @@ header {
     min-width: 900px;
     max-width: 1100px;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
 #logo {
@@ -126,9 +126,6 @@ ul a:hover {
     color: #aa0000;
 }
 
-.nologo {
-    box-shadow: 3px 3px 10px #202020
-}
 
 footer {
     font-family: sans-serif;
@@ -138,6 +135,7 @@ footer {
     color: darkgray;
     text-align: center;
     margin-top: 8em;
+
 }
 
 footer a {
@@ -155,6 +153,7 @@ footer a:hover {
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
+    width: 75%;
     
 }
 
@@ -163,3 +162,24 @@ footer a:hover {
     float: left;
     margin: 1em 2em 2em 1em;
 }
+
+.photo1 {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}    /* for 75% width photos */
+
+.photo2 {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}    /* for 50% width photos */
+
+
+
